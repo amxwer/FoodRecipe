@@ -1,0 +1,71 @@
+.buttons.svelte-1l107yt.svelte-1l107yt.svelte-1l107yt {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    z-index: 1011;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+header.svelte-1l107yt.svelte-1l107yt.svelte-1l107yt {
+    height: 82px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    padding: 0 var(--margin);
+    max-width: calc(1280px + var(--margin));
+}
+header.svelte-1l107yt.svelte-1l107yt.svelte-1l107yt, button.svelte-1l107yt.svelte-1l107yt.svelte-1l107yt {
+    font-family: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    letter-spacing: 0;
+}
+body {
+    font-family: Gotham,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    text-transform: none;
+    white-space: normal;
+    letter-spacing: 0;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+    background-color: #000;
+}
+:root {
+    --n: 4;
+    --margin: 16px;
+    --gap: 16px;
+}
+html {
+    font-size: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
