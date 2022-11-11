@@ -1,8 +1,11 @@
-package com.amxwer.foodrecipe.model;
+package com.amxwer.foodrecipe.repository;
 
+@Entity
+@Table("FoodRecipe")
 public class FoodRecipe {
  private String nameOfRecipe;
-
+@Id
+@GeneratedValue()
  private int id;
  private String description;
  private String ingredients;
@@ -17,6 +20,9 @@ public class FoodRecipe {
 
  public String getNameOfRecipe() {
   return nameOfRecipe;
+ }
+
+ public FoodRecipe() {
  }
 
  public void setNameOfRecipe(String nameOfRecipe) {
