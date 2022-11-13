@@ -1,11 +1,11 @@
 package com.amxwer.foodrecipe.repository;
 
-@Entity
-@Table("FoodRecipe")
+/*@Entity
+@Table("FoodRecipe")*/
 public class FoodRecipe {
  private String nameOfRecipe;
-@Id
-@GeneratedValue()
+/*@Id
+@GeneratedValue()*/
  private int id;
  private String description;
  private String ingredients;
